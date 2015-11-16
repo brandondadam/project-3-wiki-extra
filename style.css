@@ -25,11 +25,11 @@ color: white;
 outline-width: 0px;
 background-color: #E5EAEC;
 }
-#type,#content{
+#type,#msgs{
 float:left;
 display: inline;
 }
-#content{
+#msgs{
 box-sizing:border-box;
 color: #3D4A44;
 font-size: 14pt;;
@@ -64,7 +64,7 @@ input{
 	width: 100%;
 	height: 300px;
 }
-#content{
+#msgs{
 	font-size: 12pt;;
 }
 
