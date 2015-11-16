@@ -12,7 +12,7 @@
 		</h1>
 	<div id="page">
 		<form action="submit.php" id="type" method="post">
-			<input type="text" name="msg" placeholder="Type your message here." autocomplete="off">
+			<textarea type="text" name="msg" placeholder="Type your message here." autocomplete="off"></textarea>
 		</form>
 		<div id="msgs">
 			<?php
