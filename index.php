@@ -12,7 +12,7 @@
 		</h1>
 	<div id="page">
 		<form action="submit.php" id="type" onsubmit="return false;" onKeyDown="return addText(event);" method="post">
-			<textarea type="text" name="msg" placeholder="Type your message here." autocomplete="off"></textarea>
+			<input type="text" name="msg" placeholder="Type your message here." autocomplete="off"/>
 			<input type="submit" id="submit" value="Send">
 			<input />
 		</form>
