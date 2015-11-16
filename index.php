@@ -20,9 +20,8 @@
 			}
 			?>
 		</div>
-		<form action="submit.php" method="post">
+		<form action="submit.php" id="type" method="post">
 			<input type="text" name="msg" placeholder="Type your message here." autocomplete="off">
-			<input type="submit" value="Send">
 		</form>
 	</div>
 	<script src="jquery-1.11.3.min.js"></script>
