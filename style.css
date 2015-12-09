@@ -1,71 +1,52 @@
 html{
-font-family: helvetica,sans-serif;
+	font-family: helvetica,sans-serif;
+}
+body{
+	margin: 0px;
 }
 *, *:before, *:after {
-box-sizing: inherit;
+	box-sizing: inherit;
 }
-h1{
-box-sizing: border-box;
-margin-top: 50px;
-margin-left: 30px;
-font-size: 18px;
-color: #3D4A44;
+
+textarea, #msgs{
+	display: inline;
 }
-input{
-box-sizing:border-box;
-border-style: hidden;
-font-weight: bolder;
-resize:none;
-margin-top: 30px;
-font-size: 35pt;
-padding: 20px;
-width: 380px;
-height: 540px;
-color: white;
-outline-width: 0px;
-background-color: #E5EAEC;
-}
-#type,#msgs{
-float:left;
-display: inline;
+
+textarea{
+	float:left;
+	width: 35%;
+	min-width: 300px;
+	border-style: hidden;
+	font-weight: bolder;
+	resize:none;
+	margin-top: 30px;
+	font-size: 35pt;
+	padding: 20px;
+	height: 520px;
+	color: white;
+	outline-width: 0px;
+	background-color: #E5EAEC;
 }
 #msgs{
-box-sizing:border-box;
-color: #3D4A44;
-font-size: 14pt;;
-margin: 40px;
+	max-width: 40%;
+	float: left;
+	color: grey;
+	font-size: 14pt;
+	margin: 30px;
 }
-@media (max-width: 1000px) {
-input{
-	font-size: 30pt;
-	width: 300px;
-	width: 320px;
+#msgs p{
+	max-width: 100%;
+	margin-left: 40px;
 }
-}
-@media (max-width: 800px) {
-input{
-	font-size: 30pt;
-	width: 260px;
-	width: 320px;
-}
-}
-@media (max-width: 600px) {
-input{
-	font-size: 25pt;
-	padding: 15px;
-	width: 220px;
-	height: 500px;
-}
-}
-@media (max-width: 400px) {
-input{
-	font-size: 20pt;
-	padding: 15px;
-	width: 100%;
-	height: 300px;
-}
-#msgs{
-	font-size: 12pt;;
-}
+
+@media (max-width: 550px){
+	textarea{
+		font-size: 28px;
+		height: 500px;
+		width: 100%;
+	}
+	#msgs{
+		max-width: 75%;
+	}
 
 }
